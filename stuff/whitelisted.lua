@@ -1,4 +1,8 @@
 return {
-  3228179451,
-  8546574017
+    blacklisted = {
+        {3228179451, "testing"},
+    }
+    whitelisted = {
+        8546574017
+    }
 }
