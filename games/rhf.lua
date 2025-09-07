@@ -1,1 +1,8 @@
-Instance.new("Message", workspace).Text = "run hide fight script currently not working right now. for more information, join our discord server: https://dsc.gg/rigbyfanclub"
+loadstring(game:HttpGet("raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
+
+kick([[
+Run Hide Fight script is currently not working.
+For more information please join Nebula Discord Server.
+
+<font color="#5865F2"><u>https://dsc.gg/rigbyfanclub</u></font>
+]])
