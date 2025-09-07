@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
+loadstring(game:HttpGet("https://raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
 
 kick([[
 Run Hide Fight script is currently not working.
