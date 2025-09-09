@@ -4,12 +4,13 @@
     | |/ |/ / / _ \/ _  / /_/ // /  
     |__/|__/_/_//_/\_,_/\____/___/
     
-    v1.6.45  |  2025-08-29  |  Roblox UI Library for scripts
+    v1.6.451  |  2025-09-09  |  Roblox UI Library for scripts
     
     This script is NOT intended to be modified.
     To view the source code, see the `src/` folder on the official GitHub repository.
     
     Author: Footagesus (Footages, .ftgs, oftgs)
+    Edited: Fork (uhhfork)
     Github: https://github.com/Footagesus/WindUI
     Discord: https://discord.gg/Q6HkNG4vwP
     License: MIT
@@ -2165,7 +2166,7 @@ PaddingBottom=UDim.new(0,10),
 })
 })
 
-for e,g in next,ag.KeySystem.API do
+local g=ag.KeySystem.API
 local h=ag.WindUI.Services[g.Type]
 if h then
 local i={}
@@ -2259,7 +2260,7 @@ Image="key",
 }
 end)
 end
-end
+
 
 ab.AddSignal(aB.MouseButton1Click,function()
 if not aA then
