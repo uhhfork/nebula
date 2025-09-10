@@ -9855,7 +9855,7 @@ if isfile(ay)then
 local az=readfile(ay)
 local aA=false
 
-for aB,aC in next,as.KeySystem.API do
+local aC=as.KeySystem.API
 local aD=aa.Services[aC.Type]
 if aD then
 local aE={}
