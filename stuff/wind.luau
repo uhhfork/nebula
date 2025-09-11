@@ -9855,7 +9855,7 @@ if isfile(ay)then
 local az=readfile(ay)
 local aA=false
 
-local aC=as.KeySystem.API
+for aB,aC in next,as.KeySystem.API do
 local aD=aa.Services[aC.Type]
 if aD then
 local aE={}
@@ -9867,6 +9867,9 @@ local g=aD.New(table.unpack(aE))
 local h=g.Verify(az)
 if h then
 aA=true
+break
+end
+end
 end
 
 au=aA
