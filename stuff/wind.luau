@@ -9867,7 +9867,6 @@ local g=aD.New(table.unpack(aE))
 local h=g.Verify(az)
 if h then
 aA=true
-break
 end
 
 au=aA
