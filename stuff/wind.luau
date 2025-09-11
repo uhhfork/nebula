@@ -9869,7 +9869,6 @@ if h then
 aA=true
 break
 end
-end
 
 au=aA
 if not aA then loadKeysystem()end
