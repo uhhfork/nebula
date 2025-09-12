@@ -1,4 +1,5 @@
 -- hi
+nebula_key
 loadstring(game:HttpGet("https://raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
 if not game:IsLoaded() then
     game.Loaded:Wait()
