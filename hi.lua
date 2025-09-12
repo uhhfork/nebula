@@ -1,9 +1,10 @@
--- hi
-nebula_key
-loadstring(game:HttpGet("https://raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
+
+nebula_key
+
+loadstring(game:HttpGet("https://raw.github.com/uhhfork/nebula/main/stuff/a.lua"))()
 
 local games = {
     [93557410403539] = 'https://raw.github.com/uhhfork/nebula/main/games/nmd.lua',
