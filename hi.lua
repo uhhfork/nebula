@@ -12,7 +12,7 @@ local games = {
     [4914269443] = 'https://github.com/uhhfork/nebula/raw/main/games/uns.lua'
 }
 
-if games[game.PlaceId] then
+if games[game.GameId] then
     loadstring(game:HttpGet(games[game.GameId]))()
     else
     kick('Unsupported Game')
