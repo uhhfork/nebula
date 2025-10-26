@@ -11,7 +11,8 @@ local games = {
     [135406051460913] = 'https://github.com/uhhfork/nebula/raw/main/games/rhf.lua',
     [103536205513886] = 'https://github.com/uhhfork/nebula/raw/main/games/rhf.lua',
     [126509999114328] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua',
-    [126371807511901] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua'
+    [126371807511901] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua',
+    [14202073004] = 'https://github.com/uhhfork/nebula/raw/main/games/uns.lua'
 }
 
 if games[game.PlaceId] then
