@@ -7,16 +7,13 @@ end
 loadstring(game:HttpGet('https://github.com/uhhfork/nebula/raw/main/stuff/a.lua'))()
 
 local games = {
-    [93557410403539] = 'https://github.com/uhhfork/nebula/raw/main/games/nmd.lua',
-    [135406051460913] = 'https://github.com/uhhfork/nebula/raw/main/games/rhf.lua',
-    [103536205513886] = 'https://github.com/uhhfork/nebula/raw/main/games/rhf.lua',
-    [126509999114328] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua',
-    [126371807511901] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua',
-    [14202073004] = 'https://github.com/uhhfork/nebula/raw/main/games/uns.lua'
+    [8355209732] = 'https://github.com/uhhfork/nebula/raw/main/games/rhf.lua',
+    [7326934954] = 'https://github.com/uhhfork/nebula/raw/main/games/forest.lua',
+    [4914269443] = 'https://github.com/uhhfork/nebula/raw/main/games/uns.lua'
 }
 
 if games[game.PlaceId] then
-    loadstring(game:HttpGet(games[game.PlaceId]))()
+    loadstring(game:HttpGet(games[game.GameId]))()
     else
     kick('Unsupported Game')
 end
